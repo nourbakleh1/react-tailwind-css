@@ -1,3 +1,7 @@
+import profile1 from "../assets/images/profile-1.jpg";
+import profile2 from "../assets/images/profile-2.jpg";
+import profile3 from "../assets/images/profile-3.jpg";
+import qoute from '../assets/images/bg-quotes.png';
 
 function Testimonials() {
   
@@ -5,7 +9,7 @@ function Testimonials() {
     <section className="pb-[350px] ">
       <div className="container relative">
         <div className="absolute left-[20px] top-[-35px]">
-          <img src="/src/assets/images/bg-quotes.png" alt="quote" />
+          <img src={qoute} alt="quote" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] relative z-10">
           
@@ -15,7 +19,7 @@ function Testimonials() {
       </p>
       <div className="flex items-center gap-[15px]">
         <img
-          src={`/src/assets/images/profile-1.jpg`}
+          src={profile1}
           className="w-[50px] h-[50px] rounded-[50%] object-contain"
         />
         <div>
@@ -31,7 +35,7 @@ function Testimonials() {
       </p>
       <div className="flex items-center gap-[15px]">
         <img
-          src={`/src/assets/images/profile-2.jpg`}
+          src={profile2}
           className="w-[50px] h-[50px] rounded-[50%] object-contain"
         />
         <div>
@@ -47,7 +51,7 @@ function Testimonials() {
       </p>
       <div className="flex items-center gap-[15px]">
         <img
-          src={`/src/assets/images/profile-3.jpg`}
+          src={profile3}
           className="w-[50px] h-[50px] rounded-[50%] object-contain"
         />
         <div>
